@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "BozVid",
+    "slug": "bozvid",
+    "version": "1.0.0",
+    "ios": {
+      "bundleIdentifier": "com.bozvid.app"
+    },
+    "android": {
+      "package": "com.bozvid.app"
+    }
+  }
+}

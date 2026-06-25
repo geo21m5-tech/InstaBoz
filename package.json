@@ -1,0 +1,36 @@
+{
+  "name": "BozVid",
+  "version": "1.0.0",
+  "description": "Video monetization app with dark theme and PayPal integration",
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "build-android": "cd android && ./gradlew assembleRelease",
+    "build-ios": "cd ios && xcodebuild -workspace BozVid.xcworkspace -scheme BozVid -configuration Release"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.72.0",
+    "react-navigation": "^6.1.0",
+    "react-navigation-bottom-tabs": "^6.5.0",
+    "react-navigation-native": "^6.1.0",
+    "@react-native-async-storage/async-storage": "^1.19.0",
+    "react-native-video": "^5.2.0",
+    "react-native-linear-gradient": "^2.8.0",
+    "react-native-vector-icons": "^9.2.0",
+    "axios": "^1.4.0",
+    "formik": "^2.4.2",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.0",
+    "@types/react": "^18.2.0",
+    "@types/react-native": "^0.72.0",
+    "typescript": "^5.1.0",
+    "eslint": "^8.45.0"
+  }
+}
